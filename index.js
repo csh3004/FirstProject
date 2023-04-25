@@ -11,6 +11,8 @@ const port = 3000
    extended: true
  }))
 
+ /// npm run dev
+
 
 
 app.post('/', (req, res) => {
@@ -18,7 +20,7 @@ app.post('/', (req, res) => {
     // const result = req.body
     // res.send(result)
     id = "hoon"
-    pw = "1234"
+    pw = "12343"
 
     if (req.body.id !== id) res.send("아디틀림")    
     if (req.body.pw !== pw) res.send("틀림")
